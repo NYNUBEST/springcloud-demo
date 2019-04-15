@@ -1,0 +1,17 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: demo-config
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: file:///D:/workspace/java/springcloud-demo/config-files
+
+logging:
+  level:
+    org.springframework.cloud.config: DEBUG

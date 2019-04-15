@@ -1,0 +1,7 @@
+include 'modules:config',
+        'modules:eureka',
+        'modules:zuul',
+        'modules:service-one',
+        'modules:service-two',
+        'modules:feign'
+
