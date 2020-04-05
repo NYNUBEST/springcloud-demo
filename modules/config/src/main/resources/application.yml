@@ -10,7 +10,16 @@ spring:
     config:
       server:
         native:
-          search-locations: file:///D:/workspace/java/springcloud-demo/config-files
+          search-locations: file:///D:\develop\workspace\springcloud-demo\config-files
+    bus:
+      trace:
+        enabled: true
+
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: docker
+    password: ding
 
 logging:
   level:
